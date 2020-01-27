@@ -17,10 +17,16 @@ WebSocket that will automatically reconnect if the connection is closed.
 -   Multiple builds available (see dist folder)
 -   Debug mode
 
-## Install
+## Install original version
 
 ```bash
 npm install --save reconnecting-websocket
+```
+
+## Install Leandro's version
+
+```bash
+npm install --save @paradoxu/reconnecting-websocket-2
 ```
 
 ## Usage
