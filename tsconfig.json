@@ -1,14 +1,15 @@
 {
     "compilerOptions": {
-        "alwaysStrict": true,
+        "alwaysStrict": false,
         "module": "ESNext",
-        "strict": true,
+        "strict": false,
         "target": "es5",
         "lib": [
             "es6",
             "dom"
         ],
         "declaration": true,
-        "downlevelIteration": true
+        "downlevelIteration": true,
+        "skipLibCheck": true
     }
 }

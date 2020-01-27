@@ -5,9 +5,9 @@
  * License MIT
  */
 import {
-    CloseEvent as _CE,
-    ErrorEvent as _EE,
-    Event as _EV,
+    CloseEvent,
+    ErrorEvent,
+    Event,
     WebSocketEventListenerMap,
     WebSocketEventMap,
 } from './events';
@@ -23,10 +23,6 @@ const getGlobalWebSocket = (): WebSocket | undefined => {
  * Returns true if given argument looks like a WebSocket class
  */
 const isWebSocket = (w: any) => typeof w !== 'undefined' && !!w && w.CLOSING === 2;
-
-export type Event = _CE;
-export type ErrorEvent = _EE;
-export type CloseEvent = _EV;
 
 export type Options = {
     WebSocket?: any;

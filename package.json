@@ -1,5 +1,5 @@
 {
-    "name": "reconnecting-websocket-2",
+    "name": "@paradoxu/reconnecting-websocket-2",
     "version": "4.2.1",
     "description": "Reconnecting WebSocket",
     "main": "./dist/reconnecting-websocket-cjs.js",
@@ -13,7 +13,7 @@
         "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
         "lint": "tslint *.ts",
         "precommit": "lint-staged",
-        "prepublishOnly": "npm run clean && npm run lint && npm run build && npm test"
+        "prepublishOnly": "npm run clean && npm run lint && npm run build"
     },
     "keywords": [
         "websocket",
@@ -41,7 +41,7 @@
         "rollup-plugin-typescript2": "^0.23.0",
         "tslib": "^1.10.0",
         "tslint": "^5.19.0",
-        "typescript": "^3.5.3",
+        "typescript": "^3.7.5",
         "uglify-es": "^3.3.10",
         "ws": "^6.2.1"
     },
